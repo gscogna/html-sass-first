@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  height: 83px;
+}
+
+header, footer {
+  background-color: yellow;
+}
+
+main {
+  height: 800px;
+  background-color: green;
+}
+main .sinistro, main .centrale {
+  float: left;
+}
+main .centrale {
+  width: 400px;
+  height: 400px;
+}
+main .sinistro, main .destro {
+  width: 200px;
+  height: 400px;
+  background-color: red;
+}
+main .destro {
+  float: right;
+}

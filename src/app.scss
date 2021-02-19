@@ -1,0 +1,35 @@
+$altezza:800px;
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header,footer{
+    height: 83px;
+}
+header, footer{
+    background-color: yellow;
+}
+
+main{
+    height: $altezza;
+    background-color: green;
+    .sinistro, .centrale,{
+        float: left;
+    }
+    .centrale{
+        width:400px;
+        height: 400px;
+    }
+    .sinistro, .destro{
+        width: 200px;
+        height:400px;
+        background-color: red;
+    }
+    .destro{
+        float: right;
+    }
+
+}
